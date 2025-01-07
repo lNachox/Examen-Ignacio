@@ -1,9 +1,10 @@
-package main.java.com.flyhigh.repository;
+package main.java.flyhigh.repository;
 
-import com.flyhigh.model.Reservation;
-import com.flyhigh.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import main.java.flyhigh.model.Reservation;
+import main.java.flyhigh.model.User;
 
 import java.util.List;
 

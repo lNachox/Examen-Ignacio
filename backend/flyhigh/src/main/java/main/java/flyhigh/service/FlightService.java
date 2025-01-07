@@ -1,9 +1,10 @@
-package main.java.com.flyhigh.service;
+package main.java.flyhigh.service;
 
-import com.flyhigh.model.Flight;
-import com.flyhigh.repository.FlightRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import main.java.flyhigh.model.Flight;
+import main.java.flyhigh.repository.FlightRepository;
 
 import java.util.List;
 import java.util.Optional;

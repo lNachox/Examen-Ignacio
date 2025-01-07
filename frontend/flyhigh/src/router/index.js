@@ -1,8 +1,10 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import Vue from 'vue'
+import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import FlightList from '../views/FlightList.vue'
-import ReservationList from '../views/ReservationList.vue'
-import Profile from '../views/Profile.vue'
+import Flights from '../views/Flights.vue'
+import Reservations from '../views/Reservations.vue'
+
+Vue.use(VueRouter)
 
 const routes = [
   {
@@ -13,22 +15,18 @@ const routes = [
   {
     path: '/flights',
     name: 'Flights',
-    component: FlightList
+    component: Flights
   },
   {
     path: '/reservations',
     name: 'Reservations',
-    component: ReservationList
-  },
-  {
-    path: '/profile',
-    name: 'Profile',
-    component: Profile
+    component: Reservations
   }
 ]
 
-const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+const router = new VueRouter({
+  mode: 'history',
+  base: process.env.BASE_URL,
   routes
 })
 

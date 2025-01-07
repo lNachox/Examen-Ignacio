@@ -1,8 +1,9 @@
-package main.java.com.flyhigh.repository;
+package main.java.flyhigh.repository;
 
-import com.flyhigh.model.Flight;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import main.java.flyhigh.model.Flight;
 
 import java.util.List;
 

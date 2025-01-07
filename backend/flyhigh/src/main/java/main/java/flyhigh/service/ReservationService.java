@@ -1,10 +1,11 @@
-package main.java.com.flyhigh.service;
+package main.java.flyhigh.service;
 
-import com.flyhigh.model.Reservation;
-import com.flyhigh.model.User;
-import com.flyhigh.repository.ReservationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import main.java.flyhigh.model.Reservation;
+import main.java.flyhigh.model.User;
+import main.java.flyhigh.repository.ReservationRepository;
 
 import java.time.LocalDateTime;
 import java.util.List;

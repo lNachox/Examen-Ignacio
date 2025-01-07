@@ -1,10 +1,11 @@
-package main.java.com.flyhigh.service;
+package main.java.flyhigh.service;
 
-import com.flyhigh.model.User;
-import com.flyhigh.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import main.java.flyhigh.model.User;
+import main.java.flyhigh.repository.UserRepository;
 
 import java.util.List;
 import java.util.Optional;

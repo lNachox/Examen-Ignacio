@@ -1,4 +1,4 @@
-package main.java.com.flyhigh.model;
+package main.java.flyhigh.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
